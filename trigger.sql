@@ -1,0 +1,14 @@
+/*CREACION TRIGGER */
+
+CREATE TRIGGER mov_employee_triggerAFTER AFTER INSERT OR UPDATE OR DELETE ON employee
+FOR EACH ROW
+EXECUTE PROCEDURE mov_employee()
+
+
+
+
+
+
+
+
+
